@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "hello_world_core.html",
+    "href": "hello_world_core.html",
+    "title": "hello-world",
+    "section": "",
+    "text": "source\n\nsay_hello\n\n say_hello (to)\n\nSay hello to somebody\n\nsay_hello(\"Isaac\")\n\n'Hello Isaac!'\n\n\n\nassert say_hello(\"Hamel\") == \"Hello Hamel!\"\n\n\nfrom fastcore.test import *\n\n\ntest_eq(say_hello(\"Hamel\"), \"Hello Hamel!\")\n\n\nfrom IPython.display import display,SVG\n\n\ndisplay(SVG('&lt;svg height=\"100\" xmlns=\"http://www.w3.org/2000/svg\"&gt;&lt;circle cx=\"50\" cy=\"50\" r=\"40\"/&gt;&lt;/svg&gt;'))\n\n\n\n\n\nsource\n\n\nfoo\n\n foo ()\n\n\nsource\n\n\nHelloSayer\n\n HelloSayer (to)\n\nSay hello to to using say_hello\n\no = HelloSayer(\"Alexis\")\no.say()\n\n'Hello Alexis!'"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdev-hello-world",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation. This app was created from this link: https://nbdev.fast.ai/tutorials/tutorial.html"
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "nbdev-hello-world",
+    "section": "Install",
+    "text": "Install\npip install nbdev_hello_world"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "nbdev-hello-world",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2\n\n\n\n3+4\n\n7"
+  }
+]
